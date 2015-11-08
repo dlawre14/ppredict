@@ -1,3 +1,14 @@
-Protein Function Prediction
+# Protein Function Prediction
+***
 
-A Python package for attempting to determine a protein's function from a given nucleotide or amino acid sequence.
+### Introduction
+***
+A package for determining protein function from a given amino acid sequence. This package requires BioPython for some of its scripts.
+
+### Clustering
+***
+Lorem ipsum
+
+### Neural Net
+***
+Lorem ipsum
