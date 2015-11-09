@@ -23,17 +23,24 @@ Additionally you will need a version of [Jellyfish](https://github.com/gmarcais/
 The following is the current library of proteins used in our training set, it follows the format
 
 * Family
-** Organism member protein
+  * Organism member protein
 
 * Hemoglobin (subunit beta)
-** Homo sapiencs (Human)
-** Canis lupus (Wolf/Dog)
-** Felis catus (Domestic Cat)
-** Mus musculus (House Mouse)
-** Sus scrofa (Pig)
-** Oryctolagus cuniculus (European Rabbit)
+  * Homo sapiencs (Human)
+  * Canis lupus (Wolf/Dog)
+  * Felis catus (Domestic Cat)
+  * Mus musculus (House Mouse)
+  * Sus scrofa (Pig)
+  * Oryctolagus cuniculus (European Rabbit)
+* IGFBP1 (insulin-like growth factor-binding)
+  * Homo sapiencs (Human)
+  * Canis lupus (Wolf/Dog)
+  * Felis catus (Domestic Cat)
+  * Mus musculus (House Mouse)
+  * Sus scrofa (Pig)
+  * Oryctolagus cuniculus (European Rabbit)
 
-Note: additional training data may be specified at runtime 
+Note: additional training data may be specified at runtime
 
 ### Clustering
 ***
