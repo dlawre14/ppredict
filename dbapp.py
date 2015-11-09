@@ -15,7 +15,7 @@ conn = sqlite3.connect('db/prot.db')
 c = conn.cursor()
 
 name = args.path.split('/')
-name = (name[len(name)-2] +'_'+name[len(name)-1]).rstrip('.fasta')
+name = (name[len(name)-2] +'_'+name[len(name)-1])[:-6]
 
 t = (name,args.path)
 
