@@ -25,7 +25,9 @@ The following is the current library of proteins used in our training set, it fo
 
 * **Family**
   * **Organism member protein**
+
 ***
+
 * Hemoglobin (subunit beta)
   * Homo sapiencs (Human)
   * Canis lupus (Wolf/Dog)
