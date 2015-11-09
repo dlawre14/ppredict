@@ -1,5 +1,4 @@
 # Protein Function Prediction
-***
 
 ### Introduction
 ***
@@ -16,15 +15,17 @@ This package runs on Python 2.7.x and requires the following libraries to work:
 
 Note: most of these can be acquried with `pip`
 
-Additionally you will need a version of [Jellyfish](https://github.com/gmarcais/Jellyfish)
+Additionally you will need a version of [Jellyfish](https://github.com/gmarcais/Jellyfish) if using kmer/ngram style analysis.
+
+You will need [Blast+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) if doing alignment based analysis.
 
 ### Protein Families in training set
 ***
 The following is the current library of proteins used in our training set, it follows the format
 
-* Family
-  * Organism member protein
-
+* **Family**
+  * **Organism member protein**
+***
 * Hemoglobin (subunit beta)
   * Homo sapiencs (Human)
   * Canis lupus (Wolf/Dog)
@@ -41,6 +42,26 @@ The following is the current library of proteins used in our training set, it fo
   * Oryctolagus cuniculus (European Rabbit)
 
 Note: additional training data may be specified at runtime
+
+### Database
+***
+This program comes with a predefined `sqlite3` database that can be found in `db/pro.db` This database is used to associate all .fasta protein files with different tags.
+
+For easiest viewing, please run `dbdisp.py` which will print out the database in list readable format.
+
+The database contains the following structure:
+
+Table name | Column names
+---------- | ------------
+protein    | proid (primary key, auto increment), name, path
+tags       | tagid (primary key, auto increment), name
+ptag       | proid, tagid
+
+Writing to this database is facilitated by `dbapp.py` which can be run by:
+
+`python dbapp.py -p <fastafilepath> -t <space delimited tags>`
+
+If you wish to make a fresh database file this can be done using `db/makedb.py`
 
 ### Clustering
 ***
