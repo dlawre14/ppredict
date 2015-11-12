@@ -63,6 +63,12 @@ Writing to this database is facilitated by `dbapp.py` which can be run by:
 
 `python dbapp.py -p <fastafilepath> -t <space delimited tags>`
 
+For easier writing we also include 'dirapp.py' which takes an entire directory of fasta files and writes them all, it is run by:
+
+`python dirapp.py -p <directory> -t <space delimited tags>`
+
+Please note that all append `.py` files will only make writes that are novel, this means that `dirapp.py` is safe to use on a directory it is already run on. For this reason, we recommend only accessing the database through these .py files
+
 If you wish to make a fresh database file this can be done using `db/makedb.py`
 
 ### Clustering

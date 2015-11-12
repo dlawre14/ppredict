@@ -1,0 +1,6 @@
+Canis lupus
+Homo sapiens
+Oryctolagus cuniculus
+Felis catus
+Mus musculus
+Sus scrofa

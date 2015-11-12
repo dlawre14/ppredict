@@ -1,0 +1,70 @@
+graph "All protein tags" {
+	hemoglobin_mus_musculus
+	hemoglobin_sus_scrofa
+	hemoglobin_felis_catus_predic
+	hemoglobin_oryctolagus_cuniculus
+	hemoglobin_canis_lupus
+	hemoglobin_homo_sapien
+	igfbp_oryctolagus_cuniculus_predic
+	igfbp_sus_scrofa
+	igfbp_homo_sapiens
+	igfbp_canis_lupus_familiaris_predic
+	igfbp_felis_catus_predic
+	igfbp_mus_musculus
+	hemoglobin
+	"oxygen-transport"
+	transport
+	heme
+	insulin
+	binding
+	"signal-transduction"
+	regulation
+		hemoglobin_mus_musculus -- hemoglobin
+		hemoglobin_mus_musculus -- "oxygen-transport"
+		hemoglobin_mus_musculus -- transport
+		hemoglobin_mus_musculus -- heme
+		hemoglobin_sus_scrofa -- hemoglobin
+		hemoglobin_sus_scrofa -- "oxygen-transport"
+		hemoglobin_sus_scrofa -- transport
+		hemoglobin_sus_scrofa -- heme
+		hemoglobin_felis_catus_predic -- hemoglobin
+		hemoglobin_felis_catus_predic -- "oxygen-transport"
+		hemoglobin_felis_catus_predic -- transport
+		hemoglobin_felis_catus_predic -- heme
+		hemoglobin_oryctolagus_cuniculus -- hemoglobin
+		hemoglobin_oryctolagus_cuniculus -- "oxygen-transport"
+		hemoglobin_oryctolagus_cuniculus -- transport
+		hemoglobin_oryctolagus_cuniculus -- heme
+		hemoglobin_canis_lupus -- hemoglobin
+		hemoglobin_canis_lupus -- "oxygen-transport"
+		hemoglobin_canis_lupus -- transport
+		hemoglobin_canis_lupus -- heme
+		hemoglobin_homo_sapien -- hemoglobin
+		hemoglobin_homo_sapien -- "oxygen-transport"
+		hemoglobin_homo_sapien -- transport
+		hemoglobin_homo_sapien -- heme
+		igfbp_oryctolagus_cuniculus_predic -- insulin
+		igfbp_oryctolagus_cuniculus_predic -- binding
+		igfbp_oryctolagus_cuniculus_predic -- "signal-transduction"
+		igfbp_oryctolagus_cuniculus_predic -- regulation
+		igfbp_sus_scrofa -- insulin
+		igfbp_sus_scrofa -- binding
+		igfbp_sus_scrofa -- "signal-transduction"
+		igfbp_sus_scrofa -- regulation
+		igfbp_homo_sapiens -- insulin
+		igfbp_homo_sapiens -- binding
+		igfbp_homo_sapiens -- "signal-transduction"
+		igfbp_homo_sapiens -- regulation
+		igfbp_canis_lupus_familiaris_predic -- insulin
+		igfbp_canis_lupus_familiaris_predic -- binding
+		igfbp_canis_lupus_familiaris_predic -- "signal-transduction"
+		igfbp_canis_lupus_familiaris_predic -- regulation
+		igfbp_felis_catus_predic -- insulin
+		igfbp_felis_catus_predic -- binding
+		igfbp_felis_catus_predic -- "signal-transduction"
+		igfbp_felis_catus_predic -- regulation
+		igfbp_mus_musculus -- insulin
+		igfbp_mus_musculus -- binding
+		igfbp_mus_musculus -- "signal-transduction"
+		igfbp_mus_musculus -- regulation
+}
