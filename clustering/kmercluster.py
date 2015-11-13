@@ -1,14 +1,12 @@
 #clustering algorithm for protein classification, uses kmers for classifying
 
-class kmercluster:
+from cluster import cluster
+
+class kmercluster(cluster):
 
     def __init__(self):
-      pass
+        cluster.__init__(self)
 
-    def train(self, data):
-      #data should be a dictionary of sequences and classification
-      pass
-
-    def classifying(self, sequence):
-      #given a sequence, classify based on clustering
+    def calljf(self, seq1, seq2, jfpath, kmersize):
+      #call jellyfish on seq1 and seq2 then compare their kmers
       pass
