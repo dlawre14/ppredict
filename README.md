@@ -12,6 +12,7 @@ This package runs on Python 2.7.x and requires the following libraries to work:
 * [Numpy](https://github.com/numpy/numpy)
 * [BioPython](https://github.com/biopython/biopython)
 * [Kivy](https://github.com/kivy/kivy)
+* [graphviz](https://github.com/xflr6/graphviz) Note: Need graphviz software installed on computer
 
 Note: most of these can be acquried with `pip`
 

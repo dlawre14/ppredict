@@ -40,5 +40,7 @@ with open(args.orglist, 'r') as f:
         handle = Entrez.efetch(db='protein', id=accno, retmode='xml')
         records = Entrez.read(handle)
 
-        with open('/'.join(query.split('/')[0:-1]) + '/' + line.lower().replace(' ','_'), 'w') as o:
+        print 'Writing to: ' + '/'.join(query.split('/')[0:-1]) + '/' + line.lower().replace(' ','_') + '.fasta'
+
+        with open('/'.join(query.split('/')[0:-1]) + '/' + line.lower().replace(' ','_') + '.fasta', 'w') as o:
             o.write('>gi|' + accno + '|' + records[0]['GBSeq_definition'] + '\n' + records[0]['GBSeq_sequence'])
