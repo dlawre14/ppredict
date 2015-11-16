@@ -1,0 +1,5 @@
+A todo list:
+
+* implemenet a cluster method in which unique kmers to a protein set (i.e. kmer found in all organism proteins) use these to try and identify a target sequence
+
+

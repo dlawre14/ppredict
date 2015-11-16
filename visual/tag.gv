@@ -44,142 +44,142 @@ graph "All protein tags" {
 	activator
 	zinc
 	"zinc-finger"
-		hemoglobin_mus_musculus -- hemoglobin
-		hemoglobin_mus_musculus -- "oxygen-transport"
-		hemoglobin_mus_musculus -- transport
-		hemoglobin_mus_musculus -- heme
-		hemoglobin_sus_scrofa -- hemoglobin
-		hemoglobin_sus_scrofa -- "oxygen-transport"
-		hemoglobin_sus_scrofa -- transport
-		hemoglobin_sus_scrofa -- heme
-		hemoglobin_felis_catus_predic -- hemoglobin
-		hemoglobin_felis_catus_predic -- "oxygen-transport"
-		hemoglobin_felis_catus_predic -- transport
-		hemoglobin_felis_catus_predic -- heme
-		hemoglobin_oryctolagus_cuniculus -- hemoglobin
-		hemoglobin_oryctolagus_cuniculus -- "oxygen-transport"
-		hemoglobin_oryctolagus_cuniculus -- transport
-		hemoglobin_oryctolagus_cuniculus -- heme
-		hemoglobin_canis_lupus -- hemoglobin
-		hemoglobin_canis_lupus -- "oxygen-transport"
-		hemoglobin_canis_lupus -- transport
-		hemoglobin_canis_lupus -- heme
-		hemoglobin_homo_sapien -- hemoglobin
-		hemoglobin_homo_sapien -- "oxygen-transport"
-		hemoglobin_homo_sapien -- transport
-		hemoglobin_homo_sapien -- heme
-		igfbp_oryctolagus_cuniculus_predic -- insulin
-		igfbp_oryctolagus_cuniculus_predic -- binding
-		igfbp_oryctolagus_cuniculus_predic -- "signal-transduction"
-		igfbp_oryctolagus_cuniculus_predic -- regulation
-		igfbp_sus_scrofa -- insulin
-		igfbp_sus_scrofa -- binding
-		igfbp_sus_scrofa -- "signal-transduction"
-		igfbp_sus_scrofa -- regulation
-		igfbp_homo_sapiens -- insulin
-		igfbp_homo_sapiens -- binding
-		igfbp_homo_sapiens -- "signal-transduction"
-		igfbp_homo_sapiens -- regulation
-		igfbp_canis_lupus_familiaris_predic -- insulin
-		igfbp_canis_lupus_familiaris_predic -- binding
-		igfbp_canis_lupus_familiaris_predic -- "signal-transduction"
-		igfbp_canis_lupus_familiaris_predic -- regulation
-		igfbp_felis_catus_predic -- insulin
-		igfbp_felis_catus_predic -- binding
-		igfbp_felis_catus_predic -- "signal-transduction"
-		igfbp_felis_catus_predic -- regulation
-		igfbp_mus_musculus -- insulin
-		igfbp_mus_musculus -- binding
-		igfbp_mus_musculus -- "signal-transduction"
-		igfbp_mus_musculus -- regulation
-		myosin_oryctolagus_cuniculus -- myosin
-		myosin_oryctolagus_cuniculus -- motor
-		myosin_oryctolagus_cuniculus -- muscle
-		myosin_oryctolagus_cuniculus -- "atp-binding"
-		myosin_oryctolagus_cuniculus -- "actin-binding"
-		myosin_oryctolagus_cuniculus -- "nucleotide-binding"
-		myosin_canis_lupus -- myosin
-		myosin_canis_lupus -- motor
-		myosin_canis_lupus -- muscle
-		myosin_canis_lupus -- "atp-binding"
-		myosin_canis_lupus -- "actin-binding"
-		myosin_canis_lupus -- "nucleotide-binding"
-		myosin_homo_sapiens -- myosin
-		myosin_homo_sapiens -- motor
-		myosin_homo_sapiens -- muscle
-		myosin_homo_sapiens -- "atp-binding"
-		myosin_homo_sapiens -- "actin-binding"
-		myosin_homo_sapiens -- "nucleotide-binding"
-		myosin_mus_musculus -- myosin
-		myosin_mus_musculus -- motor
-		myosin_mus_musculus -- muscle
-		myosin_mus_musculus -- "atp-binding"
-		myosin_mus_musculus -- "actin-binding"
-		myosin_mus_musculus -- "nucleotide-binding"
-		myosin_felis_catus -- myosin
-		myosin_felis_catus -- motor
-		myosin_felis_catus -- muscle
-		myosin_felis_catus -- "atp-binding"
-		myosin_felis_catus -- "actin-binding"
-		myosin_felis_catus -- "nucleotide-binding"
-		myosin_sus_scrofa -- myosin
-		myosin_sus_scrofa -- motor
-		myosin_sus_scrofa -- muscle
-		myosin_sus_scrofa -- "atp-binding"
-		myosin_sus_scrofa -- "actin-binding"
-		myosin_sus_scrofa -- "nucleotide-binding"
-		hivep1_homo_sapiens -- "dna-binding"
-		hivep1_homo_sapiens -- "metal-ion-binding"
-		hivep1_homo_sapiens -- transcription
-		hivep1_homo_sapiens -- regulation
-		hivep1_homo_sapiens -- "signal-transduction"
-		hivep1_homo_sapiens -- hivep1
-		hivep1_homo_sapiens -- activator
-		hivep1_homo_sapiens -- zinc
-		hivep1_homo_sapiens -- "zinc-finger"
-		hivep1_felis_catus -- "dna-binding"
-		hivep1_felis_catus -- "metal-ion-binding"
-		hivep1_felis_catus -- transcription
-		hivep1_felis_catus -- regulation
-		hivep1_felis_catus -- "signal-transduction"
-		hivep1_felis_catus -- hivep1
-		hivep1_felis_catus -- activator
-		hivep1_felis_catus -- zinc
-		hivep1_felis_catus -- "zinc-finger"
-		hivep1_oryctolagus_cuniculus -- "dna-binding"
-		hivep1_oryctolagus_cuniculus -- "metal-ion-binding"
-		hivep1_oryctolagus_cuniculus -- transcription
-		hivep1_oryctolagus_cuniculus -- regulation
-		hivep1_oryctolagus_cuniculus -- "signal-transduction"
-		hivep1_oryctolagus_cuniculus -- hivep1
-		hivep1_oryctolagus_cuniculus -- activator
-		hivep1_oryctolagus_cuniculus -- zinc
-		hivep1_oryctolagus_cuniculus -- "zinc-finger"
-		hivep1_mus_musculus -- "dna-binding"
-		hivep1_mus_musculus -- "metal-ion-binding"
-		hivep1_mus_musculus -- transcription
-		hivep1_mus_musculus -- regulation
-		hivep1_mus_musculus -- "signal-transduction"
-		hivep1_mus_musculus -- hivep1
-		hivep1_mus_musculus -- activator
-		hivep1_mus_musculus -- zinc
-		hivep1_mus_musculus -- "zinc-finger"
-		hivep1_sus_scrofa -- "dna-binding"
-		hivep1_sus_scrofa -- "metal-ion-binding"
-		hivep1_sus_scrofa -- transcription
-		hivep1_sus_scrofa -- regulation
-		hivep1_sus_scrofa -- "signal-transduction"
-		hivep1_sus_scrofa -- hivep1
-		hivep1_sus_scrofa -- activator
-		hivep1_sus_scrofa -- zinc
-		hivep1_sus_scrofa -- "zinc-finger"
-		hivep1_canis_lupus -- "dna-binding"
-		hivep1_canis_lupus -- "metal-ion-binding"
-		hivep1_canis_lupus -- transcription
-		hivep1_canis_lupus -- regulation
-		hivep1_canis_lupus -- "signal-transduction"
-		hivep1_canis_lupus -- hivep1
-		hivep1_canis_lupus -- activator
-		hivep1_canis_lupus -- zinc
-		hivep1_canis_lupus -- "zinc-finger"
+		hemoglobin_mus_musculus -- hemoglobin [len=10.0]
+		hemoglobin_mus_musculus -- "oxygen-transport" [len=10.0]
+		hemoglobin_mus_musculus -- transport [len=10.0]
+		hemoglobin_mus_musculus -- heme [len=10.0]
+		hemoglobin_sus_scrofa -- hemoglobin [len=10.0]
+		hemoglobin_sus_scrofa -- "oxygen-transport" [len=10.0]
+		hemoglobin_sus_scrofa -- transport [len=10.0]
+		hemoglobin_sus_scrofa -- heme [len=10.0]
+		hemoglobin_felis_catus_predic -- hemoglobin [len=10.0]
+		hemoglobin_felis_catus_predic -- "oxygen-transport" [len=10.0]
+		hemoglobin_felis_catus_predic -- transport [len=10.0]
+		hemoglobin_felis_catus_predic -- heme [len=10.0]
+		hemoglobin_oryctolagus_cuniculus -- hemoglobin [len=10.0]
+		hemoglobin_oryctolagus_cuniculus -- "oxygen-transport" [len=10.0]
+		hemoglobin_oryctolagus_cuniculus -- transport [len=10.0]
+		hemoglobin_oryctolagus_cuniculus -- heme [len=10.0]
+		hemoglobin_canis_lupus -- hemoglobin [len=10.0]
+		hemoglobin_canis_lupus -- "oxygen-transport" [len=10.0]
+		hemoglobin_canis_lupus -- transport [len=10.0]
+		hemoglobin_canis_lupus -- heme [len=10.0]
+		hemoglobin_homo_sapien -- hemoglobin [len=10.0]
+		hemoglobin_homo_sapien -- "oxygen-transport" [len=10.0]
+		hemoglobin_homo_sapien -- transport [len=10.0]
+		hemoglobin_homo_sapien -- heme [len=10.0]
+		igfbp_oryctolagus_cuniculus_predic -- insulin [len=10.0]
+		igfbp_oryctolagus_cuniculus_predic -- binding [len=10.0]
+		igfbp_oryctolagus_cuniculus_predic -- "signal-transduction" [len=10.0]
+		igfbp_oryctolagus_cuniculus_predic -- regulation [len=10.0]
+		igfbp_sus_scrofa -- insulin [len=10.0]
+		igfbp_sus_scrofa -- binding [len=10.0]
+		igfbp_sus_scrofa -- "signal-transduction" [len=10.0]
+		igfbp_sus_scrofa -- regulation [len=10.0]
+		igfbp_homo_sapiens -- insulin [len=10.0]
+		igfbp_homo_sapiens -- binding [len=10.0]
+		igfbp_homo_sapiens -- "signal-transduction" [len=10.0]
+		igfbp_homo_sapiens -- regulation [len=10.0]
+		igfbp_canis_lupus_familiaris_predic -- insulin [len=10.0]
+		igfbp_canis_lupus_familiaris_predic -- binding [len=10.0]
+		igfbp_canis_lupus_familiaris_predic -- "signal-transduction" [len=10.0]
+		igfbp_canis_lupus_familiaris_predic -- regulation [len=10.0]
+		igfbp_felis_catus_predic -- insulin [len=10.0]
+		igfbp_felis_catus_predic -- binding [len=10.0]
+		igfbp_felis_catus_predic -- "signal-transduction" [len=10.0]
+		igfbp_felis_catus_predic -- regulation [len=10.0]
+		igfbp_mus_musculus -- insulin [len=10.0]
+		igfbp_mus_musculus -- binding [len=10.0]
+		igfbp_mus_musculus -- "signal-transduction" [len=10.0]
+		igfbp_mus_musculus -- regulation [len=10.0]
+		myosin_oryctolagus_cuniculus -- myosin [len=10.0]
+		myosin_oryctolagus_cuniculus -- motor [len=10.0]
+		myosin_oryctolagus_cuniculus -- muscle [len=10.0]
+		myosin_oryctolagus_cuniculus -- "atp-binding" [len=10.0]
+		myosin_oryctolagus_cuniculus -- "actin-binding" [len=10.0]
+		myosin_oryctolagus_cuniculus -- "nucleotide-binding" [len=10.0]
+		myosin_canis_lupus -- myosin [len=10.0]
+		myosin_canis_lupus -- motor [len=10.0]
+		myosin_canis_lupus -- muscle [len=10.0]
+		myosin_canis_lupus -- "atp-binding" [len=10.0]
+		myosin_canis_lupus -- "actin-binding" [len=10.0]
+		myosin_canis_lupus -- "nucleotide-binding" [len=10.0]
+		myosin_homo_sapiens -- myosin [len=10.0]
+		myosin_homo_sapiens -- motor [len=10.0]
+		myosin_homo_sapiens -- muscle [len=10.0]
+		myosin_homo_sapiens -- "atp-binding" [len=10.0]
+		myosin_homo_sapiens -- "actin-binding" [len=10.0]
+		myosin_homo_sapiens -- "nucleotide-binding" [len=10.0]
+		myosin_mus_musculus -- myosin [len=10.0]
+		myosin_mus_musculus -- motor [len=10.0]
+		myosin_mus_musculus -- muscle [len=10.0]
+		myosin_mus_musculus -- "atp-binding" [len=10.0]
+		myosin_mus_musculus -- "actin-binding" [len=10.0]
+		myosin_mus_musculus -- "nucleotide-binding" [len=10.0]
+		myosin_felis_catus -- myosin [len=10.0]
+		myosin_felis_catus -- motor [len=10.0]
+		myosin_felis_catus -- muscle [len=10.0]
+		myosin_felis_catus -- "atp-binding" [len=10.0]
+		myosin_felis_catus -- "actin-binding" [len=10.0]
+		myosin_felis_catus -- "nucleotide-binding" [len=10.0]
+		myosin_sus_scrofa -- myosin [len=10.0]
+		myosin_sus_scrofa -- motor [len=10.0]
+		myosin_sus_scrofa -- muscle [len=10.0]
+		myosin_sus_scrofa -- "atp-binding" [len=10.0]
+		myosin_sus_scrofa -- "actin-binding" [len=10.0]
+		myosin_sus_scrofa -- "nucleotide-binding" [len=10.0]
+		hivep1_homo_sapiens -- "dna-binding" [len=10.0]
+		hivep1_homo_sapiens -- "metal-ion-binding" [len=10.0]
+		hivep1_homo_sapiens -- transcription [len=10.0]
+		hivep1_homo_sapiens -- regulation [len=10.0]
+		hivep1_homo_sapiens -- "signal-transduction" [len=10.0]
+		hivep1_homo_sapiens -- hivep1 [len=10.0]
+		hivep1_homo_sapiens -- activator [len=10.0]
+		hivep1_homo_sapiens -- zinc [len=10.0]
+		hivep1_homo_sapiens -- "zinc-finger" [len=10.0]
+		hivep1_felis_catus -- "dna-binding" [len=10.0]
+		hivep1_felis_catus -- "metal-ion-binding" [len=10.0]
+		hivep1_felis_catus -- transcription [len=10.0]
+		hivep1_felis_catus -- regulation [len=10.0]
+		hivep1_felis_catus -- "signal-transduction" [len=10.0]
+		hivep1_felis_catus -- hivep1 [len=10.0]
+		hivep1_felis_catus -- activator [len=10.0]
+		hivep1_felis_catus -- zinc [len=10.0]
+		hivep1_felis_catus -- "zinc-finger" [len=10.0]
+		hivep1_oryctolagus_cuniculus -- "dna-binding" [len=10.0]
+		hivep1_oryctolagus_cuniculus -- "metal-ion-binding" [len=10.0]
+		hivep1_oryctolagus_cuniculus -- transcription [len=10.0]
+		hivep1_oryctolagus_cuniculus -- regulation [len=10.0]
+		hivep1_oryctolagus_cuniculus -- "signal-transduction" [len=10.0]
+		hivep1_oryctolagus_cuniculus -- hivep1 [len=10.0]
+		hivep1_oryctolagus_cuniculus -- activator [len=10.0]
+		hivep1_oryctolagus_cuniculus -- zinc [len=10.0]
+		hivep1_oryctolagus_cuniculus -- "zinc-finger" [len=10.0]
+		hivep1_mus_musculus -- "dna-binding" [len=10.0]
+		hivep1_mus_musculus -- "metal-ion-binding" [len=10.0]
+		hivep1_mus_musculus -- transcription [len=10.0]
+		hivep1_mus_musculus -- regulation [len=10.0]
+		hivep1_mus_musculus -- "signal-transduction" [len=10.0]
+		hivep1_mus_musculus -- hivep1 [len=10.0]
+		hivep1_mus_musculus -- activator [len=10.0]
+		hivep1_mus_musculus -- zinc [len=10.0]
+		hivep1_mus_musculus -- "zinc-finger" [len=10.0]
+		hivep1_sus_scrofa -- "dna-binding" [len=10.0]
+		hivep1_sus_scrofa -- "metal-ion-binding" [len=10.0]
+		hivep1_sus_scrofa -- transcription [len=10.0]
+		hivep1_sus_scrofa -- regulation [len=10.0]
+		hivep1_sus_scrofa -- "signal-transduction" [len=10.0]
+		hivep1_sus_scrofa -- hivep1 [len=10.0]
+		hivep1_sus_scrofa -- activator [len=10.0]
+		hivep1_sus_scrofa -- zinc [len=10.0]
+		hivep1_sus_scrofa -- "zinc-finger" [len=10.0]
+		hivep1_canis_lupus -- "dna-binding" [len=10.0]
+		hivep1_canis_lupus -- "metal-ion-binding" [len=10.0]
+		hivep1_canis_lupus -- transcription [len=10.0]
+		hivep1_canis_lupus -- regulation [len=10.0]
+		hivep1_canis_lupus -- "signal-transduction" [len=10.0]
+		hivep1_canis_lupus -- hivep1 [len=10.0]
+		hivep1_canis_lupus -- activator [len=10.0]
+		hivep1_canis_lupus -- zinc [len=10.0]
+		hivep1_canis_lupus -- "zinc-finger" [len=10.0]
 }

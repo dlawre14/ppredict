@@ -16,9 +16,9 @@ This package runs on Python 2.7.x and requires the following libraries to work:
 
 Note: most of these can be acquried with `pip`
 
-Additionally you will need a version of [Jellyfish](https://github.com/gmarcais/Jellyfish) if using kmer/ngram style analysis.
-
 You will need [Blast+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) if doing alignment based analysis.
+
+Footnote: `jellyfish` only works on nucleotide sequences, please ignore any references in the readme or code comments, or make an issue so they can be removed.
 
 ### Protein Families in training set
 ***

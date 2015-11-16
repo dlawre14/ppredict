@@ -17,9 +17,7 @@ tagids = {x[0]:x[1] for x in c.fetchall()}
 c.execute('SELECT * from ptag')
 matches = c.fetchall()
 
-print matches
-
-graph = Graph('All protein tags')
+graph = Graph('All protein tags', engine='neato')
 
 for key in proids:
     graph.node(proids[key])
@@ -27,7 +25,7 @@ for key in tagids:
     graph.node(tagids[key])
 
 for x,y in matches:
-    graph.edge(proids[x],tagids[y])
+    graph.edge(proids[x],tagids[y],len="10.0")
 
 graph.render('tag.gv')
 
