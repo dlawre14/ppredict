@@ -15,6 +15,7 @@ def seqdist(seq1,seq2):
 
     if len(result.alignments) == 0:
         return -1
+
     return result.alignments[0].hsps[0].expect
 
 graph = graphviz.Graph('Distance between all sequences', engine='neato')
@@ -40,13 +41,14 @@ for key in dist:
         dist[key][record[1]] = seqdist(paths[key],paths[record[1]])
 
 for key in dist:
-    val = 0
+    val = 100
     closest = None
     for k in dist[key]:
         if dist[key][k] > 0 and dist[key][k] < val:
             val = dist[key][k]
             closest = k
+    val = int(max(10,min(val*150,30)))
     print 'Adding edge from ' + key + ' to ' + k + ' with length ' + str(val)
-    graph.edge(key,k,len=str(int(val/100)),label=str(val)) #TODO: figure out why nothing is drawing in
+    graph.edge(key,k,len=str(val),label=str(val)) #TODO: figure out why nothing is drawing in
 
-#graph.render('dist.gv')
+graph.render('dist.gv')

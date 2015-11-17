@@ -72,6 +72,14 @@ Please note that all append `.py` files will only make writes that are novel, th
 
 If you wish to make a fresh database file this can be done using `db/makedb.py`
 
+### Directory Structure
+
+`/Toplevel`
+  `/frontend` - location of all runnable scripts, contains wrappers for most frontend code
+
+
+## Classification Methods
+
 ### Clustering
 ***
 Lorem ipsum

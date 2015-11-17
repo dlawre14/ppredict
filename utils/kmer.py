@@ -2,7 +2,7 @@ import argparse
 from Bio import SeqIO
 
 def kmers(seqpath,length):
-    seq = SeqIO.read(seqpath,'fasta').seq
+    seq = str(SeqIO.read(seqpath,'fasta').seq)
 
     kmers = {}
     for i in range(len(seq) - length):
