@@ -8,7 +8,7 @@ from time import sleep
 
 parser = argparse.ArgumentParser(description='Get aa sequence from accession number')
 parser.add_argument('-an', '--accession', help='the accession number for the sequence')
-parser.add_argument('-o', '--output', help='the outputdirectory')
+parser.add_argument('-o', '--output', help='the output directory')
 parser.add_argument('-l', '--orglist', help='organism list')
 args = parser.parse_args()
 
@@ -20,11 +20,11 @@ records = Entrez.read(handle)
 
 name = records[0]['GBSeq_organism'].lower().replace(' ','_')
 
-with open(args.output+name+'.fasta', 'w') as f:
+with open(args.output+'/'+name+'.fasta', 'w') as f:
   f.write('>gi|' + args.accession + '|' + records[0]['GBSeq_definition'] + '\n' + records[0]['GBSeq_sequence'])
 
 #Run blast on organism list to find orthologs
-query = args.output+name+'.fasta'
+query = args.output+'/'+name+'.fasta'
 seq = SeqIO.read(query,'fasta')
 
 with open(args.orglist, 'r') as f:
@@ -39,8 +39,6 @@ with open(args.orglist, 'r') as f:
 
         handle = Entrez.efetch(db='protein', id=accno, retmode='xml')
         records = Entrez.read(handle)
-
-        print 'Writing to: ' + '/'.join(query.split('/')[0:-1]) + '/' + line.lower().replace(' ','_') + '.fasta'
 
         with open('/'.join(query.split('/')[0:-1]) + '/' + line.lower().replace(' ','_') + '.fasta', 'w') as o:
             o.write('>gi|' + accno + '|' + records[0]['GBSeq_definition'] + '\n' + records[0]['GBSeq_sequence'])

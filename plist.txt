@@ -1,0 +1,9 @@
+actin NP_001092.1
+keratin AAB59562.1
+dystrophin AAA53189.1
+collagen BAA04809.1
+elastin AAC98395.1
+kcnn1 NP_002239.2
+glut1 NP_006507.2
+hist1 NP_005316.1
+p53 BAC16799.1

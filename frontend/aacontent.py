@@ -22,7 +22,11 @@ def aafreq(seqpath):
     return freq
 
 def kl(p,q): #Kullback-Leibler Divergence
-    return sum(p[x] + log(p[x]/q[x]) for x in p)
+    total = 0
+    for i in p:
+        total += p[i]*log(p[i]/q[i],2)
+
+    return total
 
 def jsd(p,q): #Jensen-Shannon Divergence of two probability distributions
   #TODO: fix
@@ -51,5 +55,12 @@ if __name__ == '__main__':
 
     queryfreq = aafreq(args.query)
 
+    minval = 1
+    minkey = None
     for key in aafrequency:
-        print jsd(aafrequency[key],queryfreq)
+        val = jsd(aafrequency[key],queryfreq)
+        if val < minval:
+            minval = val
+            minkey = key
+
+    #TODO: return nice tags
